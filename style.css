@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+}
+
+html {
+  color: rgb(31, 29, 29);
+  line-height: 1.5em;
+  background: linear-gradient(to right, #3525af, #9153c9);
+}
+body {
+  width: 1240px;
+  height: 1754px;
+  background: #fff;
+  /* margin: 10px auto; */
+  /* padding: 15px; */
+  display: flex;
+}
+
+h1 {
+  padding-top: 40px;
+  font-size: 6em;
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: RoyalBlue;
+  font-size: 1em;
+}
+h4 {
+  font-style: italic;
+}
+p {
+  line-height: 1.25em;
+  font-size: 1.25em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+section {
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+}
+section + section {
+  margin-top: 5px;
+}
+
+dl,
+dt,
+dd {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+.hob-list > li {
+  font-size: 1.25em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skills > li {
+  font-size: 1.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.profile img {
+  border-radius: 300px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 350px;
+  height: 350px;
+}
+.profile {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.email img {
+  height: 40px;
+  width: 40px;
+}
+.number img {
+  height: 40px;
+  width: 40px;
+}
+.github img {
+  height: 40px;
+  width: 40px;
+}
+
+.linkedIn img {
+  height: 40px;
+  width: 40px;
+}
+.profile,
+h2 {
+  margin-top: 40px;
+}
+#contacts p strong {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: RoyalBlue;
+}
+#cotacts ul {
+  margin: 10px;
+}
+#contacts li {
+  padding: 0.2em;
+  margin-bottom: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.container-skills > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin: 0;
+}
+
+.event {
+  display: grid;
+  grid-template-columns: 5ch 1fr;
+}
+.overallTimeline {
+  margin-top: 20px;
+  margin-left: 80px;
+  padding-right: 6px;
+}
+.timeline .event + .event {
+  padding-top: 10px;
+}
+
+.timeline .content {
+  border-left: 1px solid rgb(85, 84, 84);
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+.content > p {
+  margin-bottom: 10px;
+}
+
+.cv-page {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-gap: 5px;
+  background-color: white;
+}
+
+#colm1 {
+  width: 430px;
+  background-color: rgba(225, 221, 221, 0.75);
+  padding-left: 10px;
+}
+
+#bullet li {
+  list-style: disc;
+  margin-left: 30px;
+  font-size: 1.25em;
+}
